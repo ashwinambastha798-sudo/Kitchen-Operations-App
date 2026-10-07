@@ -1,0 +1,501 @@
+predicted_turnout,ingredient,quantity_available,unit,days_to_expiry,expiry_status,action_required,suggested_recipe
+152,Milk,8.6,liters,20,SAFE,Standard Storage,Masala Chai Station
+320,Flour,40.5,kg,11,SAFE,Standard Storage,Fresh Tandoori Roti
+121,Chicken,111.8,kg,7,WARNING,Prioritize in Regular Menu,Butter Chicken Combo
+171,Mutton,17.6,kg,19,SAFE,Standard Storage,Mutton Rogan Josh
+264,Tomatoes,9.6,kg,11,SAFE,Standard Storage,Large Batch Tomato Gravy
+508,Milk,36.7,liters,4,WARNING,Prioritize in Regular Menu,Paneer Butter Masala
+180,Mutton,92.3,kg,2,CRITICAL,Push to Special Menu,Mutton Biryani Special
+393,Mutton,33.8,kg,12,SAFE,Standard Storage,Mutton Rogan Josh
+463,Mutton,65.8,kg,6,WARNING,Prioritize in Regular Menu,Mutton Keema Pav
+435,Cheese,90.4,kg,1,CRITICAL,Push to Special Menu,Cheese Naan/Kulcha Event
+509,Bread,115.0,packets,12,SAFE,Standard Storage,Assorted Sandwich Trays
+524,Chicken,106.2,kg,10,SAFE,Standard Storage,Chicken Biryani Banquet
+525,Pasta,45.3,kg,16,SAFE,Standard Storage,Masala Macaroni
+239,Fish,143.8,kg,15,SAFE,Standard Storage,Goan Fish Curry
+293,Pasta,19.8,kg,3,CRITICAL,Push to Special Menu,Baked Masala Pasta (Quick Clear)
+534,Tomatoes,19.0,kg,19,SAFE,Standard Storage,Large Batch Tomato Gravy
+70,Pasta,92.5,kg,9,SAFE,Standard Storage,Masala Macaroni
+216,Bread,110.8,packets,18,SAFE,Standard Storage,Assorted Sandwich Trays
+437,Mutton,23.1,kg,14,SAFE,Standard Storage,Mutton Rogan Josh
+291,Tomatoes,16.4,kg,9,SAFE,Standard Storage,Large Batch Tomato Gravy
+395,Flour,125.3,kg,2,CRITICAL,Push to Special Menu,Discounted Samosa/Kachori
+389,Eggs,133.4,boxes,15,SAFE,Standard Storage,Egg Curry / Anda Masala
+504,Pasta,88.7,kg,12,SAFE,Standard Storage,Masala Macaroni
+558,Milk,11.6,liters,8,WARNING,Prioritize in Regular Menu,Paneer Butter Masala
+84,Fish,117.1,kg,14,SAFE,Standard Storage,Goan Fish Curry
+130,Milk,129.0,liters,4,WARNING,Prioritize in Regular Menu,Paneer Butter Masala
+437,Milk,60.1,liters,2,CRITICAL,Push to Special Menu,Large Batch Kheer (Rice Pudding)
+439,Cheese,97.2,kg,10,SAFE,Standard Storage,Paneer Tikka Board
+526,Pasta,28.6,kg,18,SAFE,Standard Storage,Masala Macaroni
+211,Pasta,35.4,kg,10,SAFE,Standard Storage,Masala Macaroni
+319,Flour,106.8,kg,16,SAFE,Standard Storage,Fresh Tandoori Roti
+320,Milk,93.3,liters,8,WARNING,Prioritize in Regular Menu,Paneer Butter Masala
+511,Chicken,82.5,kg,8,WARNING,Prioritize in Regular Menu,Butter Chicken Combo
+387,Fish,28.7,kg,15,SAFE,Standard Storage,Goan Fish Curry
+102,Tomatoes,44.1,kg,13,SAFE,Standard Storage,Large Batch Tomato Gravy
+90,Mutton,36.8,kg,15,SAFE,Standard Storage,Mutton Rogan Josh
+114,Pasta,127.2,kg,7,WARNING,Prioritize in Regular Menu,Desi Style White Sauce Pasta
+570,Bread,38.2,packets,1,CRITICAL,Push to Special Menu,Bread Pakora Special
+521,Bread,121.7,packets,11,SAFE,Standard Storage,Assorted Sandwich Trays
+548,Tomatoes,43.8,kg,17,SAFE,Standard Storage,Large Batch Tomato Gravy
+441,Fish,137.4,kg,3,CRITICAL,Push to Special Menu,Fish Tikka Platter (25% Off)
+468,Eggs,132.1,boxes,1,CRITICAL,Push to Special Menu,Mass Egg Biryani Special
+428,Pasta,35.8,kg,5,WARNING,Prioritize in Regular Menu,Desi Style White Sauce Pasta
+539,Cheese,62.4,kg,7,WARNING,Prioritize in Regular Menu,Cheese Corn Balls
+90,Cheese,25.7,kg,7,WARNING,Prioritize in Regular Menu,Cheese Corn Balls
+250,Chicken,40.8,kg,8,WARNING,Prioritize in Regular Menu,Butter Chicken Combo
+82,Mutton,83.2,kg,16,SAFE,Standard Storage,Mutton Rogan Josh
+552,Eggs,67.1,boxes,5,WARNING,Prioritize in Regular Menu,Masala Omelette Counter
+148,Eggs,62.9,boxes,12,SAFE,Standard Storage,Egg Curry / Anda Masala
+596,Fish,149.6,kg,1,CRITICAL,Push to Special Menu,Fish Tikka Platter (25% Off)
+511,Chicken,78.9,kg,3,CRITICAL,Push to Special Menu,Chicken Tikka Starters (Discount)
+54,Milk,114.6,liters,14,SAFE,Standard Storage,Masala Chai Station
+442,Milk,27.2,liters,15,SAFE,Standard Storage,Masala Chai Station
+64,Chicken,119.9,kg,10,SAFE,Standard Storage,Chicken Biryani Banquet
+510,Tomatoes,91.5,kg,19,SAFE,Standard Storage,Large Batch Tomato Gravy
+290,Tomatoes,60.3,kg,20,SAFE,Standard Storage,Large Batch Tomato Gravy
+145,Cheese,81.7,kg,4,WARNING,Prioritize in Regular Menu,Cheese Corn Balls
+534,Mutton,129.8,kg,7,WARNING,Prioritize in Regular Menu,Mutton Keema Pav
+220,Bread,103.6,packets,4,WARNING,Prioritize in Regular Menu,Garlic Naan/Bread Basket
+574,Milk,103.8,liters,7,WARNING,Prioritize in Regular Menu,Paneer Butter Masala
+292,Mutton,113.9,kg,2,CRITICAL,Push to Special Menu,Mutton Biryani Special
+77,Pasta,21.2,kg,12,SAFE,Standard Storage,Masala Macaroni
+389,Tomatoes,27.9,kg,11,SAFE,Standard Storage,Large Batch Tomato Gravy
+555,Bread,143.3,packets,7,WARNING,Prioritize in Regular Menu,Garlic Naan/Bread Basket
+239,Flour,145.9,kg,1,CRITICAL,Push to Special Menu,Discounted Samosa/Kachori
+434,Chicken,78.6,kg,20,SAFE,Standard Storage,Chicken Biryani Banquet
+308,Milk,131.2,liters,7,WARNING,Prioritize in Regular Menu,Paneer Butter Masala
+505,Flour,127.0,kg,9,SAFE,Standard Storage,Fresh Tandoori Roti
+367,Mutton,93.3,kg,5,WARNING,Prioritize in Regular Menu,Mutton Keema Pav
+274,Chicken,59.2,kg,19,SAFE,Standard Storage,Chicken Biryani Banquet
+283,Chicken,83.2,kg,12,SAFE,Standard Storage,Chicken Biryani Banquet
+423,Mutton,138.2,kg,9,SAFE,Standard Storage,Mutton Rogan Josh
+162,Eggs,52.0,boxes,17,SAFE,Standard Storage,Egg Curry / Anda Masala
+491,Bread,21.2,packets,20,SAFE,Standard Storage,Assorted Sandwich Trays
+317,Pasta,132.4,kg,7,WARNING,Prioritize in Regular Menu,Desi Style White Sauce Pasta
+435,Flour,39.7,kg,3,CRITICAL,Push to Special Menu,Discounted Samosa/Kachori
+162,Fish,132.3,kg,5,WARNING,Prioritize in Regular Menu,Amritsari Fish Fry
+130,Milk,17.4,liters,17,SAFE,Standard Storage,Masala Chai Station
+51,Cheese,123.3,kg,2,CRITICAL,Push to Special Menu,Cheese Naan/Kulcha Event
+269,Mutton,116.0,kg,5,WARNING,Prioritize in Regular Menu,Mutton Keema Pav
+274,Chicken,100.7,kg,1,CRITICAL,Push to Special Menu,Chicken Tikka Starters (Discount)
+452,Mutton,28.9,kg,2,CRITICAL,Push to Special Menu,Mutton Biryani Special
+102,Mutton,131.5,kg,12,SAFE,Standard Storage,Mutton Rogan Josh
+465,Tomatoes,144.8,kg,4,WARNING,Prioritize in Regular Menu,Tomato Shorba
+488,Mutton,114.5,kg,11,SAFE,Standard Storage,Mutton Rogan Josh
+233,Fish,108.4,kg,17,SAFE,Standard Storage,Goan Fish Curry
+343,Tomatoes,149.3,kg,5,WARNING,Prioritize in Regular Menu,Tomato Shorba
+247,Pasta,68.5,kg,11,SAFE,Standard Storage,Masala Macaroni
+560,Mutton,70.5,kg,16,SAFE,Standard Storage,Mutton Rogan Josh
+193,Fish,37.6,kg,1,CRITICAL,Push to Special Menu,Fish Tikka Platter (25% Off)
+250,Pasta,8.0,kg,6,WARNING,Prioritize in Regular Menu,Desi Style White Sauce Pasta
+513,Mutton,38.4,kg,3,CRITICAL,Push to Special Menu,Mutton Biryani Special
+452,Fish,6.0,kg,3,CRITICAL,Push to Special Menu,Fish Tikka Platter (25% Off)
+560,Bread,38.2,packets,19,SAFE,Standard Storage,Assorted Sandwich Trays
+197,Bread,129.6,packets,7,WARNING,Prioritize in Regular Menu,Garlic Naan/Bread Basket
+538,Milk,79.6,liters,1,CRITICAL,Push to Special Menu,Large Batch Kheer (Rice Pudding)
+387,Flour,102.0,kg,8,WARNING,Prioritize in Regular Menu,Puri Chole Counter
+522,Fish,83.2,kg,18,SAFE,Standard Storage,Goan Fish Curry
+200,Eggs,88.6,boxes,10,SAFE,Standard Storage,Egg Curry / Anda Masala
+312,Fish,118.8,kg,16,SAFE,Standard Storage,Goan Fish Curry
+395,Tomatoes,32.6,kg,16,SAFE,Standard Storage,Large Batch Tomato Gravy
+51,Milk,100.6,liters,1,CRITICAL,Push to Special Menu,Large Batch Kheer (Rice Pudding)
+353,Pasta,66.4,kg,12,SAFE,Standard Storage,Masala Macaroni
+502,Cheese,130.3,kg,5,WARNING,Prioritize in Regular Menu,Cheese Corn Balls
+209,Bread,102.6,packets,9,SAFE,Standard Storage,Assorted Sandwich Trays
+282,Milk,13.8,liters,3,CRITICAL,Push to Special Menu,Large Batch Kheer (Rice Pudding)
+257,Pasta,121.1,kg,3,CRITICAL,Push to Special Menu,Baked Masala Pasta (Quick Clear)
+453,Milk,41.1,liters,1,CRITICAL,Push to Special Menu,Large Batch Kheer (Rice Pudding)
+469,Fish,82.8,kg,6,WARNING,Prioritize in Regular Menu,Amritsari Fish Fry
+153,Chicken,66.2,kg,20,SAFE,Standard Storage,Chicken Biryani Banquet
+303,Flour,72.1,kg,3,CRITICAL,Push to Special Menu,Discounted Samosa/Kachori
+161,Milk,69.3,liters,3,CRITICAL,Push to Special Menu,Large Batch Kheer (Rice Pudding)
+202,Mutton,19.2,kg,18,SAFE,Standard Storage,Mutton Rogan Josh
+387,Mutton,126.2,kg,2,CRITICAL,Push to Special Menu,Mutton Biryani Special
+212,Milk,139.3,liters,16,SAFE,Standard Storage,Masala Chai Station
+210,Fish,29.1,kg,4,WARNING,Prioritize in Regular Menu,Amritsari Fish Fry
+447,Cheese,74.8,kg,16,SAFE,Standard Storage,Paneer Tikka Board
+553,Tomatoes,135.9,kg,8,WARNING,Prioritize in Regular Menu,Tomato Shorba
+184,Chicken,60.0,kg,3,CRITICAL,Push to Special Menu,Chicken Tikka Starters (Discount)
+450,Tomatoes,43.5,kg,1,CRITICAL,Push to Special Menu,Roasted Tomato Soup
+509,Cheese,46.4,kg,19,SAFE,Standard Storage,Paneer Tikka Board
+519,Mutton,101.0,kg,14,SAFE,Standard Storage,Mutton Rogan Josh
+87,Cheese,27.4,kg,6,WARNING,Prioritize in Regular Menu,Cheese Corn Balls
+414,Flour,36.6,kg,19,SAFE,Standard Storage,Fresh Tandoori Roti
+487,Bread,89.0,packets,8,WARNING,Prioritize in Regular Menu,Garlic Naan/Bread Basket
+332,Mutton,13.8,kg,2,CRITICAL,Push to Special Menu,Mutton Biryani Special
+326,Pasta,13.3,kg,1,CRITICAL,Push to Special Menu,Baked Masala Pasta (Quick Clear)
+333,Eggs,74.1,boxes,15,SAFE,Standard Storage,Egg Curry / Anda Masala
+530,Mutton,27.8,kg,5,WARNING,Prioritize in Regular Menu,Mutton Keema Pav
+565,Mutton,16.6,kg,3,CRITICAL,Push to Special Menu,Mutton Biryani Special
+241,Chicken,14.9,kg,17,SAFE,Standard Storage,Chicken Biryani Banquet
+561,Milk,102.9,liters,17,SAFE,Standard Storage,Masala Chai Station
+221,Fish,63.5,kg,14,SAFE,Standard Storage,Goan Fish Curry
+422,Eggs,40.7,boxes,6,WARNING,Prioritize in Regular Menu,Masala Omelette Counter
+148,Eggs,10.8,boxes,9,SAFE,Standard Storage,Egg Curry / Anda Masala
+86,Milk,65.8,liters,17,SAFE,Standard Storage,Masala Chai Station
+351,Eggs,87.0,boxes,3,CRITICAL,Push to Special Menu,Mass Egg Biryani Special
+165,Pasta,140.5,kg,1,CRITICAL,Push to Special Menu,Baked Masala Pasta (Quick Clear)
+305,Fish,102.1,kg,3,CRITICAL,Push to Special Menu,Fish Tikka Platter (25% Off)
+177,Pasta,39.6,kg,18,SAFE,Standard Storage,Masala Macaroni
+372,Tomatoes,24.0,kg,8,WARNING,Prioritize in Regular Menu,Tomato Shorba
+337,Flour,71.3,kg,15,SAFE,Standard Storage,Fresh Tandoori Roti
+204,Milk,6.4,liters,10,SAFE,Standard Storage,Masala Chai Station
+435,Eggs,149.8,boxes,17,SAFE,Standard Storage,Egg Curry / Anda Masala
+153,Milk,15.6,liters,1,CRITICAL,Push to Special Menu,Large Batch Kheer (Rice Pudding)
+442,Fish,78.4,kg,11,SAFE,Standard Storage,Goan Fish Curry
+295,Chicken,140.3,kg,16,SAFE,Standard Storage,Chicken Biryani Banquet
+88,Milk,132.5,liters,10,SAFE,Standard Storage,Masala Chai Station
+587,Pasta,46.3,kg,3,CRITICAL,Push to Special Menu,Baked Masala Pasta (Quick Clear)
+457,Cheese,125.9,kg,13,SAFE,Standard Storage,Paneer Tikka Board
+555,Flour,93.7,kg,7,WARNING,Prioritize in Regular Menu,Puri Chole Counter
+85,Mutton,6.1,kg,13,SAFE,Standard Storage,Mutton Rogan Josh
+69,Mutton,48.4,kg,1,CRITICAL,Push to Special Menu,Mutton Biryani Special
+561,Milk,141.1,liters,14,SAFE,Standard Storage,Masala Chai Station
+449,Chicken,43.3,kg,14,SAFE,Standard Storage,Chicken Biryani Banquet
+520,Milk,112.7,liters,15,SAFE,Standard Storage,Masala Chai Station
+141,Chicken,44.5,kg,2,CRITICAL,Push to Special Menu,Chicken Tikka Starters (Discount)
+100,Eggs,35.5,boxes,17,SAFE,Standard Storage,Egg Curry / Anda Masala
+103,Pasta,34.5,kg,11,SAFE,Standard Storage,Masala Macaroni
+493,Flour,78.3,kg,5,WARNING,Prioritize in Regular Menu,Puri Chole Counter
+313,Flour,136.3,kg,12,SAFE,Standard Storage,Fresh Tandoori Roti
+54,Bread,18.4,packets,7,WARNING,Prioritize in Regular Menu,Garlic Naan/Bread Basket
+245,Tomatoes,125.3,kg,6,WARNING,Prioritize in Regular Menu,Tomato Shorba
+399,Bread,5.5,packets,15,SAFE,Standard Storage,Assorted Sandwich Trays
+318,Chicken,97.4,kg,18,SAFE,Standard Storage,Chicken Biryani Banquet
+155,Flour,28.4,kg,19,SAFE,Standard Storage,Fresh Tandoori Roti
+169,Cheese,85.0,kg,19,SAFE,Standard Storage,Paneer Tikka Board
+107,Tomatoes,86.3,kg,5,WARNING,Prioritize in Regular Menu,Tomato Shorba
+523,Milk,15.9,liters,9,SAFE,Standard Storage,Masala Chai Station
+107,Chicken,84.1,kg,1,CRITICAL,Push to Special Menu,Chicken Tikka Starters (Discount)
+145,Pasta,89.5,kg,16,SAFE,Standard Storage,Masala Macaroni
+537,Chicken,67.3,kg,13,SAFE,Standard Storage,Chicken Biryani Banquet
+321,Bread,49.7,packets,7,WARNING,Prioritize in Regular Menu,Garlic Naan/Bread Basket
+496,Bread,135.3,packets,5,WARNING,Prioritize in Regular Menu,Garlic Naan/Bread Basket
+296,Fish,103.9,kg,3,CRITICAL,Push to Special Menu,Fish Tikka Platter (25% Off)
+125,Milk,56.3,liters,16,SAFE,Standard Storage,Masala Chai Station
+484,Mutton,133.2,kg,5,WARNING,Prioritize in Regular Menu,Mutton Keema Pav
+135,Tomatoes,146.2,kg,14,SAFE,Standard Storage,Large Batch Tomato Gravy
+269,Chicken,139.2,kg,5,WARNING,Prioritize in Regular Menu,Butter Chicken Combo
+96,Fish,130.4,kg,17,SAFE,Standard Storage,Goan Fish Curry
+143,Chicken,132.8,kg,14,SAFE,Standard Storage,Chicken Biryani Banquet
+502,Bread,31.0,packets,12,SAFE,Standard Storage,Assorted Sandwich Trays
+267,Pasta,118.4,kg,16,SAFE,Standard Storage,Masala Macaroni
+390,Tomatoes,121.3,kg,7,WARNING,Prioritize in Regular Menu,Tomato Shorba
+338,Fish,43.7,kg,5,WARNING,Prioritize in Regular Menu,Amritsari Fish Fry
+72,Milk,60.5,liters,10,SAFE,Standard Storage,Masala Chai Station
+149,Bread,129.5,packets,2,CRITICAL,Push to Special Menu,Bread Pakora Special
+229,Fish,33.9,kg,10,SAFE,Standard Storage,Goan Fish Curry
+491,Cheese,55.7,kg,1,CRITICAL,Push to Special Menu,Cheese Naan/Kulcha Event
+374,Fish,37.3,kg,13,SAFE,Standard Storage,Goan Fish Curry
+565,Fish,62.8,kg,16,SAFE,Standard Storage,Goan Fish Curry
+385,Flour,130.3,kg,2,CRITICAL,Push to Special Menu,Discounted Samosa/Kachori
+546,Flour,55.9,kg,20,SAFE,Standard Storage,Fresh Tandoori Roti
+429,Mutton,63.0,kg,1,CRITICAL,Push to Special Menu,Mutton Biryani Special
+476,Mutton,53.0,kg,5,WARNING,Prioritize in Regular Menu,Mutton Keema Pav
+317,Bread,21.7,packets,3,CRITICAL,Push to Special Menu,Bread Pakora Special
+466,Flour,30.9,kg,8,WARNING,Prioritize in Regular Menu,Puri Chole Counter
+92,Flour,10.5,kg,12,SAFE,Standard Storage,Fresh Tandoori Roti
+334,Eggs,68.0,boxes,13,SAFE,Standard Storage,Egg Curry / Anda Masala
+61,Pasta,68.3,kg,14,SAFE,Standard Storage,Masala Macaroni
+302,Mutton,21.8,kg,19,SAFE,Standard Storage,Mutton Rogan Josh
+84,Eggs,32.6,boxes,17,SAFE,Standard Storage,Egg Curry / Anda Masala
+139,Bread,107.8,packets,8,WARNING,Prioritize in Regular Menu,Garlic Naan/Bread Basket
+467,Bread,80.4,packets,19,SAFE,Standard Storage,Assorted Sandwich Trays
+245,Mutton,104.6,kg,18,SAFE,Standard Storage,Mutton Rogan Josh
+542,Fish,57.8,kg,11,SAFE,Standard Storage,Goan Fish Curry
+462,Milk,142.6,liters,4,WARNING,Prioritize in Regular Menu,Paneer Butter Masala
+326,Pasta,95.4,kg,4,WARNING,Prioritize in Regular Menu,Desi Style White Sauce Pasta
+443,Milk,109.4,liters,5,WARNING,Prioritize in Regular Menu,Paneer Butter Masala
+506,Flour,78.5,kg,3,CRITICAL,Push to Special Menu,Discounted Samosa/Kachori
+148,Tomatoes,52.3,kg,16,SAFE,Standard Storage,Large Batch Tomato Gravy
+597,Flour,85.4,kg,18,SAFE,Standard Storage,Fresh Tandoori Roti
+145,Fish,66.0,kg,5,WARNING,Prioritize in Regular Menu,Amritsari Fish Fry
+418,Tomatoes,103.2,kg,13,SAFE,Standard Storage,Large Batch Tomato Gravy
+328,Chicken,94.2,kg,3,CRITICAL,Push to Special Menu,Chicken Tikka Starters (Discount)
+322,Flour,63.9,kg,17,SAFE,Standard Storage,Fresh Tandoori Roti
+111,Bread,49.1,packets,20,SAFE,Standard Storage,Assorted Sandwich Trays
+391,Fish,67.3,kg,13,SAFE,Standard Storage,Goan Fish Curry
+68,Eggs,93.0,boxes,17,SAFE,Standard Storage,Egg Curry / Anda Masala
+445,Pasta,72.4,kg,9,SAFE,Standard Storage,Masala Macaroni
+125,Cheese,103.0,kg,9,SAFE,Standard Storage,Paneer Tikka Board
+504,Mutton,73.6,kg,14,SAFE,Standard Storage,Mutton Rogan Josh
+433,Chicken,100.5,kg,20,SAFE,Standard Storage,Chicken Biryani Banquet
+555,Flour,79.7,kg,15,SAFE,Standard Storage,Fresh Tandoori Roti
+193,Eggs,53.6,boxes,5,WARNING,Prioritize in Regular Menu,Masala Omelette Counter
+148,Fish,102.6,kg,12,SAFE,Standard Storage,Goan Fish Curry
+74,Fish,122.0,kg,20,SAFE,Standard Storage,Goan Fish Curry
+518,Chicken,8.5,kg,4,WARNING,Prioritize in Regular Menu,Butter Chicken Combo
+200,Fish,147.7,kg,16,SAFE,Standard Storage,Goan Fish Curry
+88,Eggs,128.2,boxes,13,SAFE,Standard Storage,Egg Curry / Anda Masala
+91,Milk,71.0,liters,7,WARNING,Prioritize in Regular Menu,Paneer Butter Masala
+447,Eggs,33.2,boxes,5,WARNING,Prioritize in Regular Menu,Masala Omelette Counter
+212,Tomatoes,76.7,kg,11,SAFE,Standard Storage,Large Batch Tomato Gravy
+58,Fish,26.4,kg,10,SAFE,Standard Storage,Goan Fish Curry
+541,Bread,134.4,packets,17,SAFE,Standard Storage,Assorted Sandwich Trays
+302,Milk,117.9,liters,6,WARNING,Prioritize in Regular Menu,Paneer Butter Masala
+568,Fish,30.5,kg,14,SAFE,Standard Storage,Goan Fish Curry
+217,Mutton,72.4,kg,10,SAFE,Standard Storage,Mutton Rogan Josh
+442,Mutton,41.1,kg,18,SAFE,Standard Storage,Mutton Rogan Josh
+243,Milk,71.2,liters,5,WARNING,Prioritize in Regular Menu,Paneer Butter Masala
+78,Cheese,101.8,kg,5,WARNING,Prioritize in Regular Menu,Cheese Corn Balls
+471,Mutton,91.3,kg,19,SAFE,Standard Storage,Mutton Rogan Josh
+545,Cheese,93.8,kg,13,SAFE,Standard Storage,Paneer Tikka Board
+391,Mutton,66.9,kg,20,SAFE,Standard Storage,Mutton Rogan Josh
+560,Mutton,69.7,kg,7,WARNING,Prioritize in Regular Menu,Mutton Keema Pav
+266,Chicken,112.8,kg,13,SAFE,Standard Storage,Chicken Biryani Banquet
+181,Cheese,70.3,kg,4,WARNING,Prioritize in Regular Menu,Cheese Corn Balls
+119,Fish,126.8,kg,19,SAFE,Standard Storage,Goan Fish Curry
+494,Flour,116.0,kg,12,SAFE,Standard Storage,Fresh Tandoori Roti
+231,Mutton,75.3,kg,7,WARNING,Prioritize in Regular Menu,Mutton Keema Pav
+140,Fish,44.8,kg,10,SAFE,Standard Storage,Goan Fish Curry
+580,Milk,108.5,liters,7,WARNING,Prioritize in Regular Menu,Paneer Butter Masala
+175,Fish,44.4,kg,3,CRITICAL,Push to Special Menu,Fish Tikka Platter (25% Off)
+222,Pasta,134.5,kg,13,SAFE,Standard Storage,Masala Macaroni
+269,Milk,25.1,liters,20,SAFE,Standard Storage,Masala Chai Station
+525,Fish,60.5,kg,8,WARNING,Prioritize in Regular Menu,Amritsari Fish Fry
+410,Chicken,107.4,kg,7,WARNING,Prioritize in Regular Menu,Butter Chicken Combo
+50,Milk,65.2,liters,3,CRITICAL,Push to Special Menu,Large Batch Kheer (Rice Pudding)
+397,Pasta,83.7,kg,17,SAFE,Standard Storage,Masala Macaroni
+458,Tomatoes,14.0,kg,1,CRITICAL,Push to Special Menu,Roasted Tomato Soup
+166,Tomatoes,61.5,kg,6,WARNING,Prioritize in Regular Menu,Tomato Shorba
+107,Eggs,142.2,boxes,12,SAFE,Standard Storage,Egg Curry / Anda Masala
+222,Bread,129.2,packets,15,SAFE,Standard Storage,Assorted Sandwich Trays
+198,Eggs,60.2,boxes,16,SAFE,Standard Storage,Egg Curry / Anda Masala
+262,Bread,141.7,packets,11,SAFE,Standard Storage,Assorted Sandwich Trays
+278,Flour,114.3,kg,4,WARNING,Prioritize in Regular Menu,Puri Chole Counter
+276,Tomatoes,83.0,kg,19,SAFE,Standard Storage,Large Batch Tomato Gravy
+581,Mutton,121.0,kg,18,SAFE,Standard Storage,Mutton Rogan Josh
+96,Fish,75.8,kg,9,SAFE,Standard Storage,Goan Fish Curry
+354,Flour,68.2,kg,14,SAFE,Standard Storage,Fresh Tandoori Roti
+192,Bread,61.4,packets,1,CRITICAL,Push to Special Menu,Bread Pakora Special
+422,Tomatoes,110.0,kg,3,CRITICAL,Push to Special Menu,Roasted Tomato Soup
+520,Cheese,138.3,kg,11,SAFE,Standard Storage,Paneer Tikka Board
+61,Eggs,82.4,boxes,10,SAFE,Standard Storage,Egg Curry / Anda Masala
+407,Tomatoes,90.8,kg,12,SAFE,Standard Storage,Large Batch Tomato Gravy
+457,Bread,17.2,packets,8,WARNING,Prioritize in Regular Menu,Garlic Naan/Bread Basket
+171,Tomatoes,24.7,kg,4,WARNING,Prioritize in Regular Menu,Tomato Shorba
+139,Cheese,31.4,kg,8,WARNING,Prioritize in Regular Menu,Cheese Corn Balls
+365,Flour,60.0,kg,18,SAFE,Standard Storage,Fresh Tandoori Roti
+589,Fish,70.9,kg,5,WARNING,Prioritize in Regular Menu,Amritsari Fish Fry
+90,Pasta,115.4,kg,4,WARNING,Prioritize in Regular Menu,Desi Style White Sauce Pasta
+551,Tomatoes,45.3,kg,17,SAFE,Standard Storage,Large Batch Tomato Gravy
+250,Tomatoes,41.6,kg,1,CRITICAL,Push to Special Menu,Roasted Tomato Soup
+510,Milk,73.2,liters,16,SAFE,Standard Storage,Masala Chai Station
+596,Mutton,12.6,kg,6,WARNING,Prioritize in Regular Menu,Mutton Keema Pav
+305,Pasta,37.5,kg,5,WARNING,Prioritize in Regular Menu,Desi Style White Sauce Pasta
+499,Milk,118.3,liters,10,SAFE,Standard Storage,Masala Chai Station
+291,Bread,114.4,packets,13,SAFE,Standard Storage,Assorted Sandwich Trays
+54,Fish,33.9,kg,1,CRITICAL,Push to Special Menu,Fish Tikka Platter (25% Off)
+423,Bread,95.1,packets,1,CRITICAL,Push to Special Menu,Bread Pakora Special
+195,Fish,23.3,kg,15,SAFE,Standard Storage,Goan Fish Curry
+226,Milk,86.8,liters,11,SAFE,Standard Storage,Masala Chai Station
+331,Fish,72.4,kg,17,SAFE,Standard Storage,Goan Fish Curry
+510,Flour,116.2,kg,1,CRITICAL,Push to Special Menu,Discounted Samosa/Kachori
+154,Chicken,92.9,kg,3,CRITICAL,Push to Special Menu,Chicken Tikka Starters (Discount)
+560,Milk,117.8,liters,1,CRITICAL,Push to Special Menu,Large Batch Kheer (Rice Pudding)
+454,Chicken,144.9,kg,16,SAFE,Standard Storage,Chicken Biryani Banquet
+567,Milk,88.9,liters,17,SAFE,Standard Storage,Masala Chai Station
+486,Flour,88.5,kg,5,WARNING,Prioritize in Regular Menu,Puri Chole Counter
+507,Tomatoes,62.5,kg,19,SAFE,Standard Storage,Large Batch Tomato Gravy
+194,Fish,16.0,kg,14,SAFE,Standard Storage,Goan Fish Curry
+506,Fish,19.8,kg,14,SAFE,Standard Storage,Goan Fish Curry
+50,Flour,128.3,kg,19,SAFE,Standard Storage,Fresh Tandoori Roti
+495,Eggs,121.8,boxes,1,CRITICAL,Push to Special Menu,Mass Egg Biryani Special
+537,Eggs,118.5,boxes,2,CRITICAL,Push to Special Menu,Mass Egg Biryani Special
+397,Pasta,82.2,kg,8,WARNING,Prioritize in Regular Menu,Desi Style White Sauce Pasta
+203,Pasta,15.0,kg,2,CRITICAL,Push to Special Menu,Baked Masala Pasta (Quick Clear)
+487,Pasta,6.8,kg,3,CRITICAL,Push to Special Menu,Baked Masala Pasta (Quick Clear)
+355,Tomatoes,124.2,kg,12,SAFE,Standard Storage,Large Batch Tomato Gravy
+103,Milk,67.9,liters,12,SAFE,Standard Storage,Masala Chai Station
+438,Pasta,97.2,kg,17,SAFE,Standard Storage,Masala Macaroni
+352,Cheese,107.6,kg,15,SAFE,Standard Storage,Paneer Tikka Board
+278,Tomatoes,30.5,kg,14,SAFE,Standard Storage,Large Batch Tomato Gravy
+124,Mutton,145.0,kg,19,SAFE,Standard Storage,Mutton Rogan Josh
+152,Flour,94.3,kg,6,WARNING,Prioritize in Regular Menu,Puri Chole Counter
+355,Mutton,117.3,kg,2,CRITICAL,Push to Special Menu,Mutton Biryani Special
+384,Cheese,68.2,kg,19,SAFE,Standard Storage,Paneer Tikka Board
+496,Eggs,43.9,boxes,2,CRITICAL,Push to Special Menu,Mass Egg Biryani Special
+357,Fish,125.5,kg,6,WARNING,Prioritize in Regular Menu,Amritsari Fish Fry
+530,Milk,45.4,liters,15,SAFE,Standard Storage,Masala Chai Station
+591,Cheese,40.4,kg,10,SAFE,Standard Storage,Paneer Tikka Board
+130,Cheese,87.6,kg,5,WARNING,Prioritize in Regular Menu,Cheese Corn Balls
+187,Tomatoes,53.8,kg,17,SAFE,Standard Storage,Large Batch Tomato Gravy
+379,Cheese,128.4,kg,17,SAFE,Standard Storage,Paneer Tikka Board
+557,Chicken,75.7,kg,20,SAFE,Standard Storage,Chicken Biryani Banquet
+118,Pasta,120.7,kg,2,CRITICAL,Push to Special Menu,Baked Masala Pasta (Quick Clear)
+102,Pasta,45.6,kg,2,CRITICAL,Push to Special Menu,Baked Masala Pasta (Quick Clear)
+254,Eggs,106.7,boxes,11,SAFE,Standard Storage,Egg Curry / Anda Masala
+92,Flour,85.6,kg,16,SAFE,Standard Storage,Fresh Tandoori Roti
+160,Mutton,142.5,kg,16,SAFE,Standard Storage,Mutton Rogan Josh
+144,Milk,40.0,liters,11,SAFE,Standard Storage,Masala Chai Station
+423,Tomatoes,75.8,kg,16,SAFE,Standard Storage,Large Batch Tomato Gravy
+569,Fish,105.1,kg,4,WARNING,Prioritize in Regular Menu,Amritsari Fish Fry
+409,Cheese,70.0,kg,4,WARNING,Prioritize in Regular Menu,Cheese Corn Balls
+330,Bread,18.5,packets,3,CRITICAL,Push to Special Menu,Bread Pakora Special
+244,Fish,63.6,kg,18,SAFE,Standard Storage,Goan Fish Curry
+110,Fish,49.4,kg,19,SAFE,Standard Storage,Goan Fish Curry
+452,Eggs,58.5,boxes,5,WARNING,Prioritize in Regular Menu,Masala Omelette Counter
+515,Mutton,82.0,kg,10,SAFE,Standard Storage,Mutton Rogan Josh
+583,Tomatoes,149.5,kg,6,WARNING,Prioritize in Regular Menu,Tomato Shorba
+562,Mutton,53.0,kg,5,WARNING,Prioritize in Regular Menu,Mutton Keema Pav
+282,Cheese,44.3,kg,12,SAFE,Standard Storage,Paneer Tikka Board
+395,Flour,38.4,kg,14,SAFE,Standard Storage,Fresh Tandoori Roti
+595,Fish,50.8,kg,17,SAFE,Standard Storage,Goan Fish Curry
+127,Mutton,142.9,kg,13,SAFE,Standard Storage,Mutton Rogan Josh
+122,Chicken,32.8,kg,15,SAFE,Standard Storage,Chicken Biryani Banquet
+170,Cheese,45.1,kg,15,SAFE,Standard Storage,Paneer Tikka Board
+105,Eggs,146.6,boxes,11,SAFE,Standard Storage,Egg Curry / Anda Masala
+97,Mutton,91.5,kg,17,SAFE,Standard Storage,Mutton Rogan Josh
+75,Milk,125.7,liters,4,WARNING,Prioritize in Regular Menu,Paneer Butter Masala
+306,Flour,38.0,kg,8,WARNING,Prioritize in Regular Menu,Puri Chole Counter
+302,Chicken,48.8,kg,20,SAFE,Standard Storage,Chicken Biryani Banquet
+352,Mutton,23.4,kg,14,SAFE,Standard Storage,Mutton Rogan Josh
+523,Bread,146.3,packets,14,SAFE,Standard Storage,Assorted Sandwich Trays
+265,Mutton,47.4,kg,2,CRITICAL,Push to Special Menu,Mutton Biryani Special
+414,Chicken,97.5,kg,14,SAFE,Standard Storage,Chicken Biryani Banquet
+361,Cheese,19.9,kg,19,SAFE,Standard Storage,Paneer Tikka Board
+56,Bread,88.2,packets,3,CRITICAL,Push to Special Menu,Bread Pakora Special
+412,Cheese,74.4,kg,15,SAFE,Standard Storage,Paneer Tikka Board
+557,Pasta,31.7,kg,13,SAFE,Standard Storage,Masala Macaroni
+323,Bread,41.6,packets,6,WARNING,Prioritize in Regular Menu,Garlic Naan/Bread Basket
+64,Cheese,21.5,kg,5,WARNING,Prioritize in Regular Menu,Cheese Corn Balls
+77,Milk,63.1,liters,10,SAFE,Standard Storage,Masala Chai Station
+88,Milk,88.7,liters,17,SAFE,Standard Storage,Masala Chai Station
+280,Bread,27.0,packets,12,SAFE,Standard Storage,Assorted Sandwich Trays
+586,Eggs,142.6,boxes,17,SAFE,Standard Storage,Egg Curry / Anda Masala
+574,Milk,149.1,liters,20,SAFE,Standard Storage,Masala Chai Station
+74,Milk,85.9,liters,4,WARNING,Prioritize in Regular Menu,Paneer Butter Masala
+443,Tomatoes,92.9,kg,3,CRITICAL,Push to Special Menu,Roasted Tomato Soup
+282,Eggs,37.7,boxes,13,SAFE,Standard Storage,Egg Curry / Anda Masala
+195,Mutton,60.2,kg,15,SAFE,Standard Storage,Mutton Rogan Josh
+277,Cheese,48.1,kg,15,SAFE,Standard Storage,Paneer Tikka Board
+519,Eggs,148.6,boxes,2,CRITICAL,Push to Special Menu,Mass Egg Biryani Special
+418,Flour,87.5,kg,12,SAFE,Standard Storage,Fresh Tandoori Roti
+474,Bread,93.4,packets,5,WARNING,Prioritize in Regular Menu,Garlic Naan/Bread Basket
+567,Milk,142.4,liters,20,SAFE,Standard Storage,Masala Chai Station
+331,Fish,95.7,kg,2,CRITICAL,Push to Special Menu,Fish Tikka Platter (25% Off)
+492,Flour,100.8,kg,13,SAFE,Standard Storage,Fresh Tandoori Roti
+426,Chicken,39.8,kg,1,CRITICAL,Push to Special Menu,Chicken Tikka Starters (Discount)
+486,Mutton,15.9,kg,6,WARNING,Prioritize in Regular Menu,Mutton Keema Pav
+552,Bread,64.2,packets,16,SAFE,Standard Storage,Assorted Sandwich Trays
+565,Eggs,73.1,boxes,11,SAFE,Standard Storage,Egg Curry / Anda Masala
+495,Bread,38.6,packets,9,SAFE,Standard Storage,Assorted Sandwich Trays
+292,Flour,106.9,kg,8,WARNING,Prioritize in Regular Menu,Puri Chole Counter
+278,Cheese,15.3,kg,4,WARNING,Prioritize in Regular Menu,Cheese Corn Balls
+272,Fish,139.0,kg,6,WARNING,Prioritize in Regular Menu,Amritsari Fish Fry
+371,Eggs,100.9,boxes,20,SAFE,Standard Storage,Egg Curry / Anda Masala
+124,Fish,66.6,kg,4,WARNING,Prioritize in Regular Menu,Amritsari Fish Fry
+167,Mutton,37.6,kg,17,SAFE,Standard Storage,Mutton Rogan Josh
+553,Chicken,136.7,kg,6,WARNING,Prioritize in Regular Menu,Butter Chicken Combo
+490,Chicken,15.4,kg,2,CRITICAL,Push to Special Menu,Chicken Tikka Starters (Discount)
+441,Chicken,119.9,kg,19,SAFE,Standard Storage,Chicken Biryani Banquet
+222,Eggs,113.6,boxes,12,SAFE,Standard Storage,Egg Curry / Anda Masala
+375,Eggs,138.6,boxes,4,WARNING,Prioritize in Regular Menu,Masala Omelette Counter
+274,Cheese,23.0,kg,20,SAFE,Standard Storage,Paneer Tikka Board
+162,Flour,106.5,kg,12,SAFE,Standard Storage,Fresh Tandoori Roti
+50,Flour,77.6,kg,14,SAFE,Standard Storage,Fresh Tandoori Roti
+369,Cheese,68.5,kg,6,WARNING,Prioritize in Regular Menu,Cheese Corn Balls
+188,Eggs,10.8,boxes,4,WARNING,Prioritize in Regular Menu,Masala Omelette Counter
+308,Tomatoes,111.5,kg,1,CRITICAL,Push to Special Menu,Roasted Tomato Soup
+59,Eggs,41.3,boxes,5,WARNING,Prioritize in Regular Menu,Masala Omelette Counter
+221,Milk,38.2,liters,2,CRITICAL,Push to Special Menu,Large Batch Kheer (Rice Pudding)
+62,Eggs,90.1,boxes,8,WARNING,Prioritize in Regular Menu,Masala Omelette Counter
+370,Bread,149.9,packets,5,WARNING,Prioritize in Regular Menu,Garlic Naan/Bread Basket
+378,Flour,88.6,kg,17,SAFE,Standard Storage,Fresh Tandoori Roti
+599,Chicken,73.2,kg,3,CRITICAL,Push to Special Menu,Chicken Tikka Starters (Discount)
+144,Cheese,137.8,kg,17,SAFE,Standard Storage,Paneer Tikka Board
+367,Chicken,149.6,kg,12,SAFE,Standard Storage,Chicken Biryani Banquet
+383,Tomatoes,97.0,kg,11,SAFE,Standard Storage,Large Batch Tomato Gravy
+186,Cheese,145.5,kg,2,CRITICAL,Push to Special Menu,Cheese Naan/Kulcha Event
+596,Cheese,55.5,kg,1,CRITICAL,Push to Special Menu,Cheese Naan/Kulcha Event
+345,Pasta,51.6,kg,8,WARNING,Prioritize in Regular Menu,Desi Style White Sauce Pasta
+278,Milk,129.4,liters,14,SAFE,Standard Storage,Masala Chai Station
+340,Pasta,64.7,kg,5,WARNING,Prioritize in Regular Menu,Desi Style White Sauce Pasta
+54,Cheese,46.8,kg,19,SAFE,Standard Storage,Paneer Tikka Board
+428,Tomatoes,123.0,kg,14,SAFE,Standard Storage,Large Batch Tomato Gravy
+459,Mutton,10.3,kg,4,WARNING,Prioritize in Regular Menu,Mutton Keema Pav
+91,Milk,50.6,liters,18,SAFE,Standard Storage,Masala Chai Station
+345,Pasta,21.8,kg,8,WARNING,Prioritize in Regular Menu,Desi Style White Sauce Pasta
+344,Tomatoes,130.4,kg,8,WARNING,Prioritize in Regular Menu,Tomato Shorba
+575,Bread,100.4,packets,19,SAFE,Standard Storage,Assorted Sandwich Trays
+471,Mutton,72.0,kg,1,CRITICAL,Push to Special Menu,Mutton Biryani Special
+72,Bread,32.2,packets,15,SAFE,Standard Storage,Assorted Sandwich Trays
+194,Pasta,95.3,kg,1,CRITICAL,Push to Special Menu,Baked Masala Pasta (Quick Clear)
+552,Cheese,95.7,kg,2,CRITICAL,Push to Special Menu,Cheese Naan/Kulcha Event
+153,Bread,34.5,packets,19,SAFE,Standard Storage,Assorted Sandwich Trays
+88,Mutton,24.0,kg,19,SAFE,Standard Storage,Mutton Rogan Josh
+247,Flour,68.5,kg,6,WARNING,Prioritize in Regular Menu,Puri Chole Counter
+440,Cheese,22.6,kg,19,SAFE,Standard Storage,Paneer Tikka Board
+497,Eggs,120.9,boxes,20,SAFE,Standard Storage,Egg Curry / Anda Masala
+64,Chicken,50.1,kg,15,SAFE,Standard Storage,Chicken Biryani Banquet
+338,Bread,85.1,packets,20,SAFE,Standard Storage,Assorted Sandwich Trays
+527,Milk,37.6,liters,7,WARNING,Prioritize in Regular Menu,Paneer Butter Masala
+469,Milk,71.9,liters,6,WARNING,Prioritize in Regular Menu,Paneer Butter Masala
+490,Milk,98.9,liters,1,CRITICAL,Push to Special Menu,Large Batch Kheer (Rice Pudding)
+460,Chicken,77.3,kg,1,CRITICAL,Push to Special Menu,Chicken Tikka Starters (Discount)
+303,Flour,78.8,kg,4,WARNING,Prioritize in Regular Menu,Puri Chole Counter
+571,Flour,65.2,kg,5,WARNING,Prioritize in Regular Menu,Puri Chole Counter
+167,Cheese,147.1,kg,6,WARNING,Prioritize in Regular Menu,Cheese Corn Balls
+208,Fish,71.2,kg,15,SAFE,Standard Storage,Goan Fish Curry
+277,Chicken,60.6,kg,13,SAFE,Standard Storage,Chicken Biryani Banquet
+265,Eggs,78.7,boxes,20,SAFE,Standard Storage,Egg Curry / Anda Masala
+64,Chicken,130.3,kg,8,WARNING,Prioritize in Regular Menu,Butter Chicken Combo
+310,Flour,117.0,kg,15,SAFE,Standard Storage,Fresh Tandoori Roti
+373,Tomatoes,54.3,kg,12,SAFE,Standard Storage,Large Batch Tomato Gravy
+179,Mutton,43.7,kg,19,SAFE,Standard Storage,Mutton Rogan Josh
+341,Bread,46.0,packets,11,SAFE,Standard Storage,Assorted Sandwich Trays
+332,Flour,126.4,kg,5,WARNING,Prioritize in Regular Menu,Puri Chole Counter
+60,Eggs,149.8,boxes,10,SAFE,Standard Storage,Egg Curry / Anda Masala
+599,Cheese,130.5,kg,6,WARNING,Prioritize in Regular Menu,Cheese Corn Balls
+72,Cheese,83.1,kg,15,SAFE,Standard Storage,Paneer Tikka Board
+395,Pasta,53.2,kg,14,SAFE,Standard Storage,Masala Macaroni
+412,Mutton,59.7,kg,12,SAFE,Standard Storage,Mutton Rogan Josh
+267,Pasta,131.1,kg,13,SAFE,Standard Storage,Masala Macaroni
+259,Fish,87.9,kg,1,CRITICAL,Push to Special Menu,Fish Tikka Platter (25% Off)
+509,Fish,129.1,kg,12,SAFE,Standard Storage,Goan Fish Curry
+405,Tomatoes,11.3,kg,16,SAFE,Standard Storage,Large Batch Tomato Gravy
+373,Cheese,107.3,kg,5,WARNING,Prioritize in Regular Menu,Cheese Corn Balls
+176,Tomatoes,61.0,kg,10,SAFE,Standard Storage,Large Batch Tomato Gravy
+427,Chicken,76.8,kg,9,SAFE,Standard Storage,Chicken Biryani Banquet
+100,Bread,23.3,packets,14,SAFE,Standard Storage,Assorted Sandwich Trays
+345,Eggs,53.1,boxes,9,SAFE,Standard Storage,Egg Curry / Anda Masala
+456,Milk,131.8,liters,1,CRITICAL,Push to Special Menu,Large Batch Kheer (Rice Pudding)
+454,Cheese,19.5,kg,14,SAFE,Standard Storage,Paneer Tikka Board
+469,Cheese,7.2,kg,1,CRITICAL,Push to Special Menu,Cheese Naan/Kulcha Event
+420,Chicken,64.4,kg,8,WARNING,Prioritize in Regular Menu,Butter Chicken Combo
+480,Chicken,15.9,kg,9,SAFE,Standard Storage,Chicken Biryani Banquet
+358,Flour,54.1,kg,9,SAFE,Standard Storage,Fresh Tandoori Roti
+251,Tomatoes,99.2,kg,20,SAFE,Standard Storage,Large Batch Tomato Gravy
+362,Pasta,128.6,kg,9,SAFE,Standard Storage,Masala Macaroni
+293,Mutton,60.1,kg,11,SAFE,Standard Storage,Mutton Rogan Josh
+435,Pasta,95.9,kg,7,WARNING,Prioritize in Regular Menu,Desi Style White Sauce Pasta
+259,Cheese,131.5,kg,2,CRITICAL,Push to Special Menu,Cheese Naan/Kulcha Event
+396,Bread,94.5,packets,17,SAFE,Standard Storage,Assorted Sandwich Trays
+228,Fish,96.5,kg,7,WARNING,Prioritize in Regular Menu,Amritsari Fish Fry
+229,Flour,149.6,kg,6,WARNING,Prioritize in Regular Menu,Puri Chole Counter
+550,Milk,67.9,liters,1,CRITICAL,Push to Special Menu,Large Batch Kheer (Rice Pudding)
+226,Milk,115.3,liters,11,SAFE,Standard Storage,Masala Chai Station
+205,Milk,69.3,liters,18,SAFE,Standard Storage,Masala Chai Station
+518,Flour,136.0,kg,17,SAFE,Standard Storage,Fresh Tandoori Roti
+133,Bread,52.0,packets,9,SAFE,Standard Storage,Assorted Sandwich Trays
+197,Bread,47.5,packets,8,WARNING,Prioritize in Regular Menu,Garlic Naan/Bread Basket
+376,Pasta,67.4,kg,1,CRITICAL,Push to Special Menu,Baked Masala Pasta (Quick Clear)
+190,Fish,82.0,kg,19,SAFE,Standard Storage,Goan Fish Curry
+367,Eggs,103.9,boxes,17,SAFE,Standard Storage,Egg Curry / Anda Masala
+478,Chicken,29.6,kg,16,SAFE,Standard Storage,Chicken Biryani Banquet
+473,Milk,93.4,liters,19,SAFE,Standard Storage,Masala Chai Station
+67,Tomatoes,94.9,kg,1,CRITICAL,Push to Special Menu,Roasted Tomato Soup
+420,Fish,77.2,kg,15,SAFE,Standard Storage,Goan Fish Curry
+243,Eggs,25.8,boxes,17,SAFE,Standard Storage,Egg Curry / Anda Masala
+163,Cheese,97.5,kg,6,WARNING,Prioritize in Regular Menu,Cheese Corn Balls
+313,Cheese,42.0,kg,7,WARNING,Prioritize in Regular Menu,Cheese Corn Balls
+507,Bread,135.3,packets,19,SAFE,Standard Storage,Assorted Sandwich Trays
+211,Cheese,135.7,kg,1,CRITICAL,Push to Special Menu,Cheese Naan/Kulcha Event
+136,Mutton,27.9,kg,18,SAFE,Standard Storage,Mutton Rogan Josh
+440,Cheese,142.1,kg,8,WARNING,Prioritize in Regular Menu,Cheese Corn Balls
+362,Eggs,48.4,boxes,3,CRITICAL,Push to Special Menu,Mass Egg Biryani Special
+492,Tomatoes,105.1,kg,8,WARNING,Prioritize in Regular Menu,Tomato Shorba
+103,Cheese,127.6,kg,15,SAFE,Standard Storage,Paneer Tikka Board
+278,Fish,149.9,kg,3,CRITICAL,Push to Special Menu,Fish Tikka Platter (25% Off)
