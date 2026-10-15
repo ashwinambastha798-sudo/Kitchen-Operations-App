@@ -1,13 +1,19 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Depends, HTTPException, Header
 from fastapi.middleware.cors import CORSMiddleware
+from sqlalchemy.orm import Session
 from pydantic import BaseModel
 import joblib
 import pandas as pd
-from typing import List, Optional
+from typing import List, Optional, Dict, Any
 from datetime import datetime, timedelta
 import os
-# Force uvicorn reload to load the new Indian recipe ML model
 import httpx
+import json
+
+from database import engine, get_db
+import models
+
+models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI(title="Dynamic Kitchen Inventory Forecasting API")
 
@@ -51,7 +57,7 @@ class ForecastRequest(BaseModel):
     latitude: float
     longitude: float
     special_event_type: str
-    Previous_Turnout: str
+    previous_headcount: int = 150
     unit_price_per_kg: float = 10.0
     shelf_life_days: int = 5
     special_event: int = 0
@@ -128,7 +134,7 @@ async def get_predict(req: ForecastRequest):
     input_data = pd.DataFrame([{
         'day_name': day_name,
         'special_event_type': req.special_event_type,
-        'Previous_Turnout': req.Previous_Turnout,
+        'Previous_Turnout': "HIGH" if req.previous_headcount > 300 else ("LOW" if req.previous_headcount < 100 else "MEDIUM"),
         'temperature_2m_max': temp_max,
         'relative_humidity_2m_mean': humidity_mean,
         'unit_price_per_kg': req.unit_price_per_kg,
@@ -140,8 +146,12 @@ async def get_predict(req: ForecastRequest):
         X_trans = preprocessor.transform(input_data)
         X_opt = pd.DataFrame(X_trans, columns=preprocessor.get_feature_names_out())[features_to_keep]
         prediction = model.predict(X_opt)[0]
+        
+        # Scale prediction based on restaurant baseline (assuming model is trained on ~200 covers baseline)
+        scale_factor = max(req.previous_headcount / 200.0, 0.1)
+        prediction = prediction * scale_factor
     else:
-        prediction = 300.0
+        prediction = req.previous_headcount * 1.1 # Simple fallback
         
     headcount = int(round(prediction))
     
@@ -219,3 +229,94 @@ async def inventory_action(req: InventoryActionRequest):
 @app.get("/api/health")
 def health():
     return {"status": "ok"}
+
+# --- DATABASE ENDPOINTS ---
+class BatchCreate(BaseModel):
+    name: str
+    quantity: float
+    unit: str
+    unitCost: float
+    orderDate: str
+    expiryDate: str
+
+@app.get("/api/inventory/batches")
+def get_batches(x_user_id: str = Header("default"), db: Session = Depends(get_db)):
+    return db.query(models.InventoryBatch).filter(models.InventoryBatch.user_id == x_user_id).all()
+
+@app.post("/api/inventory/batches")
+def create_batch(batch: BatchCreate, x_user_id: str = Header("default"), db: Session = Depends(get_db)):
+    db_batch = models.InventoryBatch(**batch.dict(), user_id=x_user_id)
+    db.add(db_batch)
+    db.commit()
+    db.refresh(db_batch)
+    return db_batch
+
+@app.delete("/api/inventory/batches/{batch_id}")
+def delete_batch(batch_id: int, x_user_id: str = Header("default"), db: Session = Depends(get_db)):
+    db_batch = db.query(models.InventoryBatch).filter(models.InventoryBatch.id == batch_id, models.InventoryBatch.user_id == x_user_id).first()
+    if db_batch:
+        db.delete(db_batch)
+        db.commit()
+    return {"status": "ok"}
+
+@app.get("/api/menu")
+def get_menu(db: Session = Depends(get_db)):
+    items = db.query(models.MenuItem).all()
+    res = []
+    for item in items:
+        res.append({
+            "id": item.id,
+            "name": item.name,
+            "basePrice": item.basePrice,
+            "ingredients": json.loads(item.ingredients_json)
+        })
+    return res
+
+@app.get("/api/inventory/par-levels")
+def get_par_levels(db: Session = Depends(get_db)):
+    levels = db.query(models.ParLevel).all()
+    return levels
+
+@app.post("/api/setup-test-data")
+def setup_test_data(db: Session = Depends(get_db)):
+    db.query(models.InventoryBatch).delete()
+    db.query(models.MenuItem).delete()
+    db.query(models.ParLevel).delete()
+
+    batches = [
+        {"name": 'Chicken', "quantity": 18, "unit": 'kg', "unitCost": 8, "orderDate": '2024-10-01', "expiryDate": '2024-10-10'},
+        {"name": 'Cheese', "quantity": 4, "unit": 'kg', "unitCost": 15, "orderDate": '2024-10-03', "expiryDate": '2024-10-25'},
+        {"name": 'Tomatoes', "quantity": 12, "unit": 'kg', "unitCost": 3, "orderDate": '2024-10-05', "expiryDate": '2024-10-12'},
+        {"name": 'Pasta', "quantity": 25, "unit": 'kg', "unitCost": 1.2, "orderDate": '2024-09-15', "expiryDate": '2025-01-01'},
+        {"name": 'Tomatoes', "quantity": 5, "unit": 'kg', "unitCost": 3, "orderDate": '2024-10-02', "expiryDate": '2024-10-09'}
+    ]
+    for b in batches:
+        db.add(models.InventoryBatch(**b))
+
+    menu = [
+        {"name": 'Chicken Parmesan', "basePrice": 24, "ingredients_json": json.dumps([{"name": 'Chicken', "qty": 0.25}, {"name": 'Cheese', "qty": 0.1}, {"name": 'Tomatoes', "qty": 0.2}])},
+        {"name": 'Seafood Pasta', "basePrice": 28, "ingredients_json": json.dumps([{"name": 'Pasta', "qty": 0.2}, {"name": 'Fish', "qty": 0.2}, {"name": 'Tomatoes', "qty": 0.1}])},
+        {"name": 'Mutton Stew', "basePrice": 26, "ingredients_json": json.dumps([{"name": 'Mutton', "qty": 0.3}, {"name": 'Tomatoes', "qty": 0.1}, {"name": 'Bread', "qty": 0.1}])},
+        {"name": 'Classic Omelette', "basePrice": 14, "ingredients_json": json.dumps([{"name": 'Eggs', "qty": 0.1}, {"name": 'Cheese', "qty": 0.05}, {"name": 'Milk', "qty": 0.05}])},
+        {"name": 'Margherita Pizza', "basePrice": 18, "ingredients_json": json.dumps([{"name": 'Flour', "qty": 0.3}, {"name": 'Cheese', "qty": 0.2}, {"name": 'Tomatoes', "qty": 0.15}])}
+    ]
+    for m in menu:
+        db.add(models.MenuItem(**m))
+
+    par_levels = [
+        {"ingredient": 'Chicken', "level": 15, "cost": 8, "unit": 'kg'},
+        {"ingredient": 'Cheese', "level": 5, "cost": 15, "unit": 'kg'},
+        {"ingredient": 'Tomatoes', "level": 10, "cost": 3, "unit": 'kg'},
+        {"ingredient": 'Pasta', "level": 20, "cost": 1.2, "unit": 'kg'},
+        {"ingredient": 'Fish', "level": 10, "cost": 12, "unit": 'kg'},
+        {"ingredient": 'Mutton', "level": 15, "cost": 14, "unit": 'kg'},
+        {"ingredient": 'Bread', "level": 5, "cost": 2, "unit": 'kg'},
+        {"ingredient": 'Eggs', "level": 5, "cost": 5, "unit": 'crates'},
+        {"ingredient": 'Milk', "level": 2, "cost": 1.5, "unit": 'liters'},
+        {"ingredient": 'Flour', "level": 15, "cost": 0.8, "unit": 'kg'}
+    ]
+    for p in par_levels:
+        db.add(models.ParLevel(**p))
+
+    db.commit()
+    return {"status": "test data setup complete"}

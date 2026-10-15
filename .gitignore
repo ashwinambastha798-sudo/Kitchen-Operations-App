@@ -3,3 +3,8 @@ node_modules/
 __pycache__/
 .env
 .DS_Store
+*.db
+*.sqlite3
+dist/
+fix.js
+replace.py
